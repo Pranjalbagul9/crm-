@@ -31,7 +31,7 @@ const Add = ({ open, onClose }) => {
         e.preventDefault();
         try {
           const response = await axios.post("http://localhost:4001/api/v1/enquiry/enquiryCreate", formData);
-          console.log(response.data); // You can handle success response here
+          console.log(response.data); 
           // Clear form data after successful submission if needed
           setFormData({
             firstName: '',
