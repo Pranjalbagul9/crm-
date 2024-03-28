@@ -91,7 +91,7 @@ const Add = ({ open, onClose }) => {
             </div>
             <div className="firstn">
               <label className="firstlabel">
-                Last Name :
+                Last Nam :
               </label>
               <input
                 className="firstname"
