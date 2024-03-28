@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border-radius: 4px;
+     
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container{
+    border: 1px solid black;
+    height: 650px;
+    width: 680px;
+    background: rgb(255, 255, 239);
+}
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.leftheader{
+    margin-left: 10px;
+}
+.rightheader{
+    margin-right: 10px;
+    display: flex;
+    gap: 20px
+    ;
+}
+.but1{
+    background-color: rgb(34, 151, 34);
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+#tick{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.but2{
+    background: whitesmoke;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 4px;
+
+}
+input{
+    height: 22px;
+}  
+main{
+     width: 100%;
+     /* border: 1px solid black; */
+     margin-left: 25px;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 10px
+     ;
+     padding-top: 5px;
+     font-size: small;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+    ;
+}
+.company_input{
+    width: 60%;
+}
+ 
+select{
+    width: 50px;
+    height: 26px;
+}
+.name_container{
+    display: flex;
+    gap: 30px
+    ;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+    ;
+}
+.name_input{
+    display: flex;
+    gap: 15px
+    ;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 5px
+    ;
+}
+.email_container{
+    display: flex;
+    gap: 20px
+    ;
+}
+.email_con{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.website_con{ 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.email_input{
+    width: 300px;
+}
+.country{
+    display: flex;
+     
+    gap: 10px
+    ;
+}
+.country_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+    ;
+}
+.country_input{
+    width: 200px;
+}
+.checkboxes{
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+.box1{
+    height: 35px;
+    width: 100px;
+    border: 2px solid rgb(204, 97, 97);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #FAE6D6;
+    color: rgb(204, 97, 97);
+}
+.box2{
+    height: 35px;
+    width: 100px;
+    border: 2px solid #E3B27B;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #F5EFCB;
+    color: #E3B27B;
+}
+.box3{
+    height: 35px;
+    width: 100px;
+    border: 2px solid #7695AC;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #D6E4EE;
+    color: #7695AC;
+}
+.box4{
+    height: 35px;
+    width: 110px;
+    border: 2px solid #8DC693;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #DCEFDC;
+    color: #8DC693;
+}
+.box5{
+    height: 35px;
+    width: 85px;
+    border: 2px solid #657B89;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #D2E1E8;
+    color:  #657B89;
+}
+.section3{
+    display: flex;
+    gap: 15px
+    ;
+    margin-top: 10px;
+    
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+    ;
+}
+#amount{
+    width: 140px;
+}
+#notes{
+    width: 470px;
+}
+#prospect{
+    width: 200px;
+}
+#target{
+    width: 100px;
+}
+.footer1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px
+    ;
+}
+#footer_button1{
+    width: 190px;
+    height: 30px;
+    background-color: rgb(255, 174, 25);
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.footer2{
+    margin-top: 10px;
+     
+
+}
+#footer_button2{
+    width: 80px;
+    height: 30px;
+    background-color:  rgb(34, 151, 34);
+    color: white;
+
+
+}
+#footer_button3 {
+    width: 80px;
+    height: 30px; 
+    margin-left: 10px;
+    background-color: rgb(57, 57, 134) ;
+    color: white;
+
+}
+#add{
+    color: white;
+    text-decoration: none;
+}

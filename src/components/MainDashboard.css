@@ -1,0 +1,193 @@
+.MainDashboard{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ margin-top: 4rem;
+}
+.main-cards {
+    /* display:flex;
+    gap:20px;
+    height: 7rem!important;
+    width: 100%;
+    position: relative;
+    cursor:pointer;
+    margin: 15px 0; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0; 
+}
+.btn{
+    margin:0;
+    padding:0;
+    
+    background-color: #badc58;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+.btn:active{
+    transform:scale(0.96);
+  }
+.btn:hover{
+    box-shadow: 0px 2px 10px 5px #6ab04c;
+  }
+.btn:focus{
+    outline:none;
+  }
+.btn1{
+    margin:0;
+    padding:0;
+    background-color: #D6A2E8;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+.btn1:active{
+    transform:scale(0.96);
+  }
+.btn1:hover{
+    box-shadow: 0px 2px 10px 5px  #82589F;
+  }
+.btn1:focus{
+    outline:none;
+}
+
+.btn2{
+    margin:0;
+    padding:0;
+    background-color:  #c7ecee;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+.btn2:active{
+    transform:scale(0.96);
+  }
+.btn2:hover{
+    box-shadow: 0px 2px 10px 5px #00cec9;
+  }
+.btn2:focus{
+    outline:none;
+}
+
+.btn3{
+    margin:0;
+    padding:0;
+    background-color:   #f6e58d;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+.btn3:active{
+    transform:scale(0.96);
+  }
+.btn3:hover{
+    box-shadow: 0px 2px 10px 5px  #f9ca24;
+  }
+.btn3:focus{
+    outline:none;
+}
+.btn4{
+    margin:0;
+    padding:0;
+    background-color:  #ff7979;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+.btn4:active{
+    transform:scale(0.96);
+  }
+.btn4:hover{
+    box-shadow: 0px 2px 10px 5px #eb4d4b;
+  }
+.btn4:focus{
+    outline:none;
+}
+.btn51{
+    margin:0;
+    padding:0;
+    background-color: #33d9b2;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .btn51:active{
+    transform:scale(0.96);
+  }
+  .btn51:hover{
+    box-shadow: 0px 2px 10px 5px #218c74;
+  }
+  .btn51:focus{
+    outline:none;
+  }
+  .btn6{
+    margin:0;
+    padding:0;
+    background-color: #FEA47F;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .btn6:active{
+    transform:scale(0.96);
+  }
+  .btn6:hover{
+    box-shadow: 0px 2px 10px 5px #cd6133;
+  }
+  .btn6:focus{
+    outline:none;
+  }
+  .btn7{
+    margin:0;
+    padding:0;
+    background-color: #78e08f;
+    border:none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .btn7:active{
+    transform:scale(0.96);
+  }
+  .btn7:hover{
+    box-shadow: 0px 2px 10px 5px #6ab04c;
+  }
+  .btn7:focus{
+    outline:none;
+  }
+  .card_icon{
+    font-size: 2em;
+  }
+  @media screen and (max-width: 768px) {
+    .main-cards {
+        grid-template-columns: 1fr;
+        gap:10px;
+    }
+
+    .main-cards > * {
+        margin-bottom: 10px; /* Add spacing between buttons on smaller screens */
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .MainDash{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+    .main-cards{
+        flex-direction: column;
+    }
+    .cards{
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .MainDash{
+        align-items: center;
+    }
+    .cards{
+        width:90%;
+    }
+}

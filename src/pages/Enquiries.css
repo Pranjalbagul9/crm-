@@ -1,0 +1,56 @@
+.dropdown {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-add-enquiry {
+    
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  h2{
+    color:black;
+    margin:20px;
+  }
+  select{
+    margin:10px;
+  }
+  .excel{
+    margin:10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin:10px;
+  }
+  
+  th, td {
+    border: 1px solid white;
+    padding: 20px;
+    text-align: left;
+    color:#2f3640;
+  }
+  
+  th {
+    background-color: white;
+  }
+  
+  /* Optional: Style for the badge */
+  .badge {
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  .badge.bg-warning {
+    background-color: #ffc107;
+    color: #000;
+  }
